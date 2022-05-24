@@ -37,6 +37,12 @@ THEN the saved events persist
 The HTML document includes:
 * a proper title and SEO metadata
 
+The CSS document includes:
+* 
+
+The JavaScript document includes:
+* 
+
 ## Languages
 - HTML
 - CSS
@@ -44,7 +50,7 @@ The HTML document includes:
 - JQuery
 
 ## Links
-* [Deployed webpage](https://villettec.github.io/Module_)
+* [Deployed webpage](https://villettec.github.io/Module_5-Work_Day_Scheduler/)
 
 * [Repository](https://github.com/villettec/Module_5-Work_Day_Scheduler)
 
