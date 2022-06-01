@@ -49,9 +49,10 @@ The CSS document includes:
 The JavaScript document includes:
 * universal variables
 * "click" event listener
-* moment for current day
+* moment for current day and hour
 * array for populating times 
 * function to append time block divs
+* if/else statements
 * functions for saving to local storage
 
 ## Languages
