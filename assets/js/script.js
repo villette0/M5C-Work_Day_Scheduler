@@ -59,3 +59,8 @@ function saveTimeInformation () {
     var textForDescription = $(this).siblings('.description').val();
     localStorage.setItem(time, textForDescription);
 }
+
+//Function to retrieve info from local storage
+hoursArray.forEach(function(hour) {
+    $(`#${hour} .description`).val(localStorage.getItem(hour));
+})
