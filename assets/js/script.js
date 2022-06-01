@@ -30,3 +30,13 @@ hoursArray.forEach(function(hour) {
     rowDiv.append(timeColumn, textColumn, saveButtonColumn);
     $('.container').append(rowDiv);
 })
+
+// Function for adding different class colors if in past, present, or future
+var presentHour = moment().hours();
+$('.time-block').each(function(){
+    var hourTime = parseInt($(this).attr('id'));
+    if (hourTime < presentHour) {
+        $(this).removeClass('future');
+        $(this).removeClass('present');
+        $(this).addClass('past');
+    } 
