@@ -3,11 +3,9 @@ var today = moment();
 // Same as getelementbyid in jquery
 $("#currentDay").text(today.format("dddd, MMM Do, YYYY"));
 
-//Save button event listener
-$('.saveBtn').click(saveTimeInformation);
 
 // times array that will display
-var hoursArray = [9, 10, 11, 12, 13, 14, 15, 16, 17];
+var hoursArray = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24];
 //Creates HTML elements for our planner's time rows
 hoursArray.forEach(function(hour) {
     // Variables for each 'create element'
@@ -33,6 +31,7 @@ hoursArray.forEach(function(hour) {
     $('.container').append(rowDiv);
 })
 
+
 // Function for adding different class colors if in past, present, or future
 var presentHour = moment().hours();
 $('.time-block').each(function(){
@@ -53,6 +52,7 @@ $('.time-block').each(function(){
     }
 })
 
+
 //Function for save button event listener to save to local storage
 function saveTimeInformation () {
     var time = $(this).parent().attr('id');
@@ -60,7 +60,12 @@ function saveTimeInformation () {
     localStorage.setItem(time, textForDescription);
 }
 
+
 //Function to retrieve info from local storage
 hoursArray.forEach(function(hour) {
     $(`#${hour} .description`).val(localStorage.getItem(hour));
 })
+
+
+//Save button event listener
+$('.saveBtn').click(saveTimeInformation);
