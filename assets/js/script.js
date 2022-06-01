@@ -3,6 +3,8 @@ var today = moment();
 // Same as getelementbyid in jquery
 $("#currentDay").text(today.format("dddd, MMM Do, YYYY"));
 
+//Save button event listener
+$('.saveBtn').click(saveTimeInformation);
 
 // times array that will display
 var hoursArray = [9, 10, 11, 12, 13, 14, 15, 16, 17];
