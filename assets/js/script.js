@@ -52,3 +52,10 @@ $('.time-block').each(function(){
         $(this).addClass('future');
     }
 })
+
+//Function for save button event listener to save to local storage
+function saveTimeInformation () {
+    var time = $(this).parent().attr('id');
+    var textForDescription = $(this).siblings('.description').val();
+    localStorage.setItem(time, textForDescription);
+}
