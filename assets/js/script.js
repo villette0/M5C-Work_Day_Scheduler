@@ -40,3 +40,13 @@ $('.time-block').each(function(){
         $(this).removeClass('present');
         $(this).addClass('past');
     } 
+    else if (hourTime === presentHour) {
+        $(this).removeClass('future');
+        $(this).removeClass('past');
+        $(this).addClass('present');
+    } else {
+        $(this).removeClass('past');
+        $(this).removeClass('present');
+        $(this).addClass('future');
+    }
+})
