@@ -35,13 +35,24 @@ THEN the saved events persist
 
 ## Tasks Completed
 The HTML document includes:
-* a proper title and SEO metadata
+* a proper title
+* proper HTML semantic labelling
+* a jumbotron header, container placeholder for time block row divs 
+* comments
 
 The CSS document includes:
-* 
+* elemental, class, and hover styling
+* jumbotron and text styling
+* different color styling for past, present, and future hours
+* save button styling
 
 The JavaScript document includes:
-* 
+* universal variables
+* "click" event listener
+* moment for current day
+* array for populating times 
+* function to append time block divs
+* functions for saving to local storage
 
 ## Languages
 - HTML
