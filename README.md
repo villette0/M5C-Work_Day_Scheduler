@@ -1,11 +1,11 @@
-# Module 5 Work Day Scheduler
+# Work Day Scheduler
 
 ## Website Description
-This is a calendar application that allows a user to save events for each hour of the day. Past events are in grey, present hour events in red, and future events are in green. The events are organized chronologically throughout the present day, which is displayed at the top. 
+This is a day planner application that allows a user to save events for each hour of the day. Past events are in grey, present hour events in red, and future events are in green. The events are organized chronologically throughout the present day, which is displayed at the top. 
 
 ## Challenge Description
 
-The calendar application features dynamically updated HTML and CSS powered by jQuery. Starter code was provided which used Moment.js, a library to work with date and time. The date and day dynamically changes via this library. Row divs are created in the javascript file to include time, the event's information, and a save button for local storage. Text can be inputted and saved. Different classes, which stylizes colors, are assigned for which hour has occurred whether less than, equal to, or greater than the present hour in a function. An array is used to populate the time slots and an if/else statement populates the displayed time text. 
+The day planner application features dynamically updated HTML and CSS powered by jQuery. Starter code was provided which used Moment.js, a library to work with date and time. The date and day dynamically changes via this library. Row divs are created in the javascript file to include time, the event's information, and a save button for local storage. Text can be inputted and saved. Different classes, which stylizes colors, are assigned for which hour has occurred whether less than, equal to, or greater than the present hour in a function. An array is used to populate the time slots and an if/else statement populates the displayed time text. 
 
 ## User Story
 
@@ -62,9 +62,9 @@ The JavaScript document includes:
 - JQuery
 
 ## Links
-* [Deployed webpage](https://villettec.github.io/Module_5-Work_Day_Scheduler/)
+* [Deployed webpage](https://villettec.github.io/M5C-Work_Day_Scheduler/)
 
-* [Repository](https://github.com/villettec/Module_5-Work_Day_Scheduler)
+* [Repository](https://github.com/villettec/M5C-Work_Day_Scheduler)
 
 ## Screenshot
 ![image](./assets/images/readme-screenshot.png)
