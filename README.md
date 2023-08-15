@@ -62,14 +62,10 @@ The JavaScript document includes:
 - JQuery
 
 ## Links
-* [Deployed webpage](https://villettec.github.io/M5C-Work_Day_Scheduler/)
+* [Deployed webpage](https://villette0.github.io/M5C-Work_Day_Scheduler/)
 
-* [Repository](https://github.com/villettec/M5C-Work_Day_Scheduler)
+* [Repository](https://github.com/villette0/M5C-Work_Day_Scheduler)
 
 ## Screenshot
 ![image](./assets/images/readme-screenshot.png)
 
-## Credit
-Villette Comfort
-
-villette@live.com
